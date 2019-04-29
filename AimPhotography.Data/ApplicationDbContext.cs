@@ -14,5 +14,10 @@ namespace AimPhotography.Data
             : base(options)
         {
         }
+
+        DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        DbSet<Blog> Blog { get; set; }
+        DbSet<BlogPost> BlogPosts { get; set; }
+        DbSet<BlogPostImage> BlogPostImages { get; set; }
     }
 }

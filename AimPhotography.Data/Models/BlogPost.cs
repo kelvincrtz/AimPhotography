@@ -13,6 +13,6 @@ namespace AimPhotography.Data.Models
 
         public virtual ApplicationUser User { get; set; }
 
-        public IEnumerable<BlogImage> BlogImages { get; set; }
+        public virtual IEnumerable<BlogPostImage> BlogImages { get; set; }
     }
 }

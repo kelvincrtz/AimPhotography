@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AimPhotography.Data.Models
 {
-    public class BlogImage
+    public class BlogPostImage
     {
         public int Id { get; set; }
         public string Title { get; set; }
