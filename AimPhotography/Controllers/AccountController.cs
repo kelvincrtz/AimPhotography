@@ -13,6 +13,7 @@ using Microsoft.Extensions.Options;
 using AimPhotography.Models;
 using AimPhotography.Models.AccountViewModels;
 using AimPhotography.Services;
+using AimPhotography.Data.Models;
 
 namespace AimPhotography.Controllers
 {
