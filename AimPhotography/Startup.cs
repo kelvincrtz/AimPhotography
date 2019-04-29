@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using AimPhotography.Data;
-using AimPhotography.Models;
+using AimPhotography.Data.Models;
 using AimPhotography.Services;
 
 namespace AimPhotography
